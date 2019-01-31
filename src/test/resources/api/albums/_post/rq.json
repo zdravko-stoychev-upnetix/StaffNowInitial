@@ -1,0 +1,7 @@
+{
+  "albumId": ${albumId},
+  "id": ${id},
+  "title": "${title}",
+  "url": "http://placehold.it/600/771796",
+  "thumbnailUrl": "http://placehold.it/150/771796"
+}
