@@ -1,0 +1,2 @@
+[2019-02-01 06:30:16] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2019-02-01 06:30:16] [IMessager.java] [1] [INFO] RESULT #1: TEST [Lufthansa - testGetEnvResponse] FAIL [log=file://C:\Users\ivan.dobrinov\Documents\QA\Projects\Lufthansa\Lufthansa\Lufthansa\.\reports\qa\1549002615000/Lufthansa_-_testGetEnvResponse/test.log]

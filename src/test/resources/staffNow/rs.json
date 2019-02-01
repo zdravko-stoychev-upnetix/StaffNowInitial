@@ -1,0 +1,8 @@
+{
+  "env": "DEV",
+  "apiPlatformEndpoint": "/api/platform/",
+  "apiBackofficeEndpoint": "/api/backoffice/",
+  "version": "UNKNOWN",
+  "oauthIssuer": "https://test2-staffnow.upnetix.tech/auth/realms/staffnow-test",
+  "oauthResourceId": "staffnow"
+}
