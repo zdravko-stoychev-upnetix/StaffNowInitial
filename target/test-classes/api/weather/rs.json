@@ -1,0 +1,8 @@
+{
+  "City": "London",
+  "Temperature": "5.63 Degree celsius",
+  "Humidity": "70 Percent",
+  "WeatherDescription": "broken clouds",
+  "WindSpeed": "3.6 Km per hour",
+  "WindDirectionDegree": "350 Degree"
+}

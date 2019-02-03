@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "City": {
+      "type": "string"
+    },
+    "Temperature": {
+      "type": "string"
+    },
+    "Humidity": {
+      "type": "string"
+    },
+    "WeatherDescription": {
+      "type": "string"
+    },
+    "WindSpeed": {
+      "type": "string"
+    },
+    "WindDirectionDegree": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "City",
+    "Temperature",
+    "Humidity",
+    "WeatherDescription",
+    "WindSpeed",
+    "WindDirectionDegree"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "timestamp": "skip",
+  "status": 401,
+  "error": "Unauthorized",
+  "message": "Authentication failed",
+  "path": "/bo/api/authentication"
+}

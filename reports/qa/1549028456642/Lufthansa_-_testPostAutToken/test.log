@@ -1,0 +1,143 @@
+[2019-02-01 03:40:56] [CarinaListener.java] [1] [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+platform=*
+browser=chrome
+browser_version=*
+browser_locale=
+selenium_host=http://localhost:4444/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=true
+smart_screenshot=false
+implicit_timeout=10
+explicit_timeout=20
+auto_download=false
+auto_download_apps=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=10
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+optimize_video_recording=false
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_local_storage=.
+s3_save_screenshots=FALSE
+hockeyapp_token=
+hockeyapp_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+test_run_rules=
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+[2019-02-01 03:40:56] [IMessager.java] [1] [INFO] INFO:  TEST [Lufthansa - testPostAutToken] STARTED at [15:40:56 2019-02-01]
+[2019-02-01 03:40:58] [LoggingOutputStream.java] [1] [INFO] Request method:	POST
+Request path:	https://test2-staffnow.upnetix.tech/auth/realms/staffnow-test/protocol/openid-connect/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	grant_type=password
+				client_id=staffnow
+				client_secret=a9513f37-7aab-46fa-a884-8becf81decdd
+				username=staffnowtest+1@gmail.com
+				password=111111
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 01 Feb 2019 13:40:58 GMT
+Content-Type: application/json
+Content-Length: 2460
+Connection: keep-alive
+Cache-Control: no-store
+Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/auth/realms/staffnow-test/; HttpOnly
+Pragma: no-cache
+
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4eTQyc1hKdWhScEhSMzlFMXpwbndjYnl4anBGbDFMYkt5TWJVOUI0NXlFIn0.eyJqdGkiOiJiMTllMTY5Yi0zMmE5LTQ3NjYtOWUxNC1jNjA1NDA5NzFjMzMiLCJleHAiOjE1NDkwMjk2NTgsIm5iZiI6MCwiaWF0IjoxNTQ5MDI4NDU4LCJpc3MiOiJodHRwczovL3Rlc3QyLXN0YWZmbm93LnVwbmV0aXgudGVjaC9hdXRoL3JlYWxtcy9zdGFmZm5vdy10ZXN0IiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjA2MGRkNzI4LTBjZjctNGE1Yy04NTRmLWY4ZTc0YTlkNWJmNiIsInR5cCI6IkJlYXJlciIsImF6cCI6InN0YWZmbm93IiwiYXV0aF90aW1lIjowLCJzZXNzaW9uX3N0YXRlIjoiMjRhMGRlMWItMjY2OS00MjRlLWIxMDQtOGYwMzcyNThmYjVmIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vc3RhZmZub3ctdGVzdC5hcHBzLmF2aWF0YXIuaW8iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic3RhZmZub3d0ZXN0KzFAZ21haWwuY29tIiwiZW1haWwiOiJzdGFmZm5vd3Rlc3QrMUBnbWFpbC5jb20ifQ.jrkZtR6M6hTLUfMBLeeOooicjwlngibfphTYpV-oP6IFL3MNLqarad2gg7B7QxQworKWKGY4hV3Bbvs-rMvkf0XysRMytYOwqjhd0h0aaFFpyipqk2Fm_Rl2ZKKrg98CNKdDYWhux5NbyxF2uYuiT8joLr1Qhjd_uAfInkm-6n5DYE0Hfnjxvvo2MKHdQfFk5Hio096Q0m_F2wbHhJM3wdnLgfqj1bgo7-Z9MaoHR132sZg2i6P1IsRdyD1m2NxiETgTGYtJxrG5PoJxinMveAPwbkiwJkIzS7RqNn070zDSboQOgl6f_831avDyI940KOa68aLNWfvIsp8pr73Zag",
+    "expires_in": 1200,
+    "refresh_expires_in": 1800,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJiZmFkYzNhYS0xNjBmLTQxZTAtODczZC05MDM2MDdlOGI5YTAifQ.eyJqdGkiOiJmZmQ2OTY0NS0yZDc1LTRjZGMtYmM1YS01Mzc0NWQ1YWVhOWEiLCJleHAiOjE1NDkwMzAyNTgsIm5iZiI6MCwiaWF0IjoxNTQ5MDI4NDU4LCJpc3MiOiJodHRwczovL3Rlc3QyLXN0YWZmbm93LnVwbmV0aXgudGVjaC9hdXRoL3JlYWxtcy9zdGFmZm5vdy10ZXN0IiwiYXVkIjoiaHR0cHM6Ly90ZXN0Mi1zdGFmZm5vdy51cG5ldGl4LnRlY2gvYXV0aC9yZWFsbXMvc3RhZmZub3ctdGVzdCIsInN1YiI6IjA2MGRkNzI4LTBjZjctNGE1Yy04NTRmLWY4ZTc0YTlkNWJmNiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJzdGFmZm5vdyIsImF1dGhfdGltZSI6MCwic2Vzc2lvbl9zdGF0ZSI6IjI0YTBkZTFiLTI2NjktNDI0ZS1iMTA0LThmMDM3MjU4ZmI1ZiIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIn0.UpL75bwYSxhnq4L4p-gvfI5qBJ96lA9I9nWHQeCUW_s",
+    "token_type": "bearer",
+    "not-before-policy": 0,
+    "session_state": "24a0de1b-2669-424e-b104-8f037258fb5f",
+    "scope": "profile email"
+}
+
+[2019-02-01 03:40:58] [IMessager.java] [1] [INFO] INFO:  TEST [Lufthansa - testPostAutToken] PASSED at [15:40:58 2019-02-01]
