@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "firstName": "Jack",
+    "lastName": "BuiltAHouse",
+    "birthDate": "1978-01-30"
+  },
+  "contractor": {
+    "presentation": "test presentation",
+    "experience": 1,
+    "ameTypeId": 1,
+    "ameLicenseId": 2,
+    "airplanes": [
+      1
+    ],
+    "otherAirplanes": "Space X"
+  }
+}

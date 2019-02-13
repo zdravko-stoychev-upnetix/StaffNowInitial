@@ -8,7 +8,7 @@ public class GetEnvironmentContractorTest extends AbstractTest {
     @Test
     public void testGetEnvResponse(){
         GetEnvironmentContractor getEnvContractor = new GetEnvironmentContractor();
-        //getEnvContractor.expectResponseStatus(HttpResponseStatusType.OK_200);
+        getEnvContractor.request.expect().statusCode(200).statusLine("HTTP/1.1 200 ");//expectResponseStatus(HttpResponseStatusType.valueOf("HTTP/1.1 200"));
         getEnvContractor.callAPI();
         getEnvContractor.validateResponse();
 
